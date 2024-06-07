@@ -1,0 +1,29 @@
+name: Auto Merge to Master
+
+on:
+  push:
+    branches:
+      - FlutLabAmanda
+      - FlutLabYasmim
+      - FlutLabIzadora
+      - FlutLabEduarda
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Configure git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+    - name: Merge branch to master
+      run: |
+        git checkout master
+        git pull origin master
+        git merge --no-ff ${{ github.ref }}
+        git push origin master
