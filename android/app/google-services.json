@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "210025230234",
+    "firebase_url": "https://hipnos-fantaso-default-rtdb.firebaseio.com",
+    "project_id": "hipnos-fantaso",
+    "storage_bucket": "hipnos-fantaso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210025230234:android:9b078c8cdd9c8430795423",
+        "android_client_info": {
+          "package_name": "com.prometeus.hipnos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC8OcQUyaOliR3XEv_qetWIJO0C8Zb2bE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
