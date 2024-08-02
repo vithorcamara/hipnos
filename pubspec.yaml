@@ -19,6 +19,7 @@ dev_dependencies:
   firebase_auth: ^4.8.0
   firebase_database: ^10.0.6
   sleek_circular_slider: ^2.0.1
+  google_fonts: ^6.2.1
 
 flutter:
   uses-material-design: true
